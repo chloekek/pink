@@ -1,0 +1,6 @@
+{
+    "name": "pink",
+    "provides": {
+        "Pink::Main": "lib/Pink/Main.pm6"
+    }
+}
