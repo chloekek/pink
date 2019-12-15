@@ -1,0 +1,7 @@
+package Str
+{
+    method Str(--> Str)
+    {
+        self;
+    }
+}

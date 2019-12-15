@@ -1,7 +1,13 @@
 unit module Pink::Main;
 
-sub MAIN
+use Pink::Compile;
+use Pink::Parse;
+use Pink::Vm::Es;
+
+sub MAIN(*@source-files)
     is export
 {
-    say ｢Hello, world!｣;
+    my @asts = hyper for @source-files { parse-source-file($_.IO) };
+    my $anf := compile-source-files(@asts);
+    es-compilation-unit($anf);
 }

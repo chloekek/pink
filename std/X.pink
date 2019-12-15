@@ -1,0 +1,23 @@
+package X
+{
+package AdHoc
+{
+    sub new(Str $message --> X::AdHoc)
+    {
+    }
+}
+}
+
+package X
+{
+package Errno
+{
+    sub new(Int $errno --> X::Errno)
+    {
+    }
+}
+}
+
+sub die(Str $message --> Nonex)
+{
+}

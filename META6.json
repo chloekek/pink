@@ -1,6 +1,13 @@
 {
     "name": "pink",
     "provides": {
-        "Pink::Main": "lib/Pink/Main.pm6"
+        "Pink::Anf": "lib/Pink/Anf.pm6",
+        "Pink::Ast": "lib/Pink/Ast.pm6",
+        "Pink::Compile": "lib/Pink/Compile.pm6",
+        "Pink::Main": "lib/Pink/Main.pm6",
+        "Pink::Parse": "lib/Pink/Parse.pm6",
+        "Pink::Parse::Actions": "lib/Pink/Parse/Actions.pm6",
+        "Pink::Parse::Grammar": "lib/Pink/Parse/Grammar.pm6",
+        "Pink::Vm::Es": "lib/Pink/Vm/Es.pm6"
     }
 }

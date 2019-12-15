@@ -1,0 +1,16 @@
+=head1 NAME
+
+pinkroutine - Subroutines
+
+=head1 DESCRIPTION
+
+Pink has two primary types of subroutines: methods and subs.
+
+Methods can only be defined inside packages. To call a method, an object
+blessed with the enclosing package is needed.
+
+Subs can be defined inside packages and outside packages. Unlike methods,
+subs do not interact with C<bless>; defining a sub inside a package merely
+namespaces it to that package.
+
+=cut

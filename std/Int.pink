@@ -1,0 +1,26 @@
+package Int
+{
+    method noop(--> ::Undef)
+    {
+    }
+
+    method gist(--> Str)
+    {
+        self.Str;
+    }
+
+    method Bool(--> Bool)
+    {
+        false;
+    }
+
+    method Int(--> Int)
+    {
+        self;
+    }
+
+    method Str(--> Str)
+    {
+        ‘0’;
+    }
+}
